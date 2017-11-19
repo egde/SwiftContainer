@@ -1,6 +1,6 @@
 import Foundation;
 
-class SwiftContainer {
+public class SwiftContainer {
   private var objectsById = [String: AnyObject]();
 
   private static let instance : SwiftContainer = SwiftContainer();
