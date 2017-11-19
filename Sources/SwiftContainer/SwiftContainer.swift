@@ -7,15 +7,15 @@ public class SwiftContainer {
 
   private init() {}
 
-  static func getInstance() -> SwiftContainer {
+  public static func getInstance() -> SwiftContainer {
     return instance;
   }
 
-  func getObject(id: String) -> AnyObject? {
+  public func getObject(id: String) -> AnyObject? {
     return objectsById[id];
   }
 
-  func addObject(id: String, object: AnyObject) {
+  public func addObject(id: String, object: AnyObject) {
     self.objectsById[id] = object;
   }
 
