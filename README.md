@@ -1,3 +1,3 @@
 # SwiftContainer
 
-A description of this package.
+A very simple IOC Container for Swift.
